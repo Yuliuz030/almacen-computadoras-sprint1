@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Quicksand:wght@500&display=swap');
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+    color: #222
+}
+
+
+*::before,*::after,* {
+    box-sizing: inherit;
+}
+body {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 46%, rgba(0,0,0,0.6418942577030813) 100%);
+}
+h1{
+    text-align: center;
+}
+.title-hr{
+    width: 50%;
+}
+.header {
+    position: sticky;
+    width: 100%;
+    height:10vh;
+    margin-bottom: 2%;
+}
+.nav {
+    width: 90%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo {
+    width:15%;
+    margin-left: 5%;
+    }
+.nav-link {
+    color: #222;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-menu {
+    display: flex;
+    margin-right: 80px;
+    list-style: none;
+}
+.nav-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;    
+}
+.nav-link:hover {
+    background-color: #0001;
+    color: black;
+}
+.main {
+  background-color:transparent;
+  width: 90%;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+border-radius: 20px;
+  margin-bottom: 5%;
+}
+.table {
+   background-color: white;
+   margin: auto;
+   text-align: center;
+   font-weight: bold;
+   width: 90%;
+   border-radius: 10px;
+}
+.table td{
+    border-radius: 5px;
+    border: 2px outset #222;
+}
+.img {
+    width: 200px;
+    height: 150px;
+}
+.redes{
+    width: 60%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+.redes .img-redes img{
+    border-radius: 80px;
+}
+.redes .img-redes img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.footer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+footer .ctn-contacto{
+    width: 25%;
+    height: 25vh;
+    align-self: center;
+    text-align: center;
+}
+
+footer .ctn-politicas{
+    width: 65%;
+    height: 10vh;
+    align-self: center;
+    font-weight: lighter;
+    text-align: start;
+}

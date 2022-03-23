@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/compra.css">
+    <title>Future PC</title>
+</head>
+
+<body>
+
+    <h1>ALMACEN DE COMPUTADORES</h1>
+
+    <form action="" id="cantidadCompra" class="cantidadCompra">
+        <div class="ctn-cantidad">
+            <label for="cantidad">Cantidad de computadores comprados</label>
+            <input type="number" name="cantidad" id="cantidad" placeholder="Cantidad">
+        </div>
+        <button id="btn-calcular"class="btn-calcular">Calcular</button>
+    </form>
+
+    <section class="ctn-compra">
+        <h1>Orden de Compra</h1>
+        <picture class="ctn-img">
+            <img src="./images/logo.png">
+        </picture>
+
+        <form id="valorCompra" class="valorCompra">
+            <div class="ctn-input-valores">
+                <label for="compra">Valor de compra:</label>
+                <input type="text" id="compra" readonly>
+
+                <label for="descuento">Valor de descuento:</label>
+                <input type="text" id="descuento" readonly>
+
+                <label for="total">Valor a pagar:</label>
+                <input type="text" id="total" readonly>
+
+               <label for="notificacion">El descuento es de:</label>
+               <h5 class="notificacion" id="notificacion"></h5>
+            </div>
+        </form>
+    </section>
+    <script src="../js/main.js"></script>
+</body>
+</html>

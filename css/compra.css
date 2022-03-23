@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Quicksand:wght@500&display=swap');
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+    color: #222
+}
+
+*::before,*::after,* {
+    box-sizing: inherit;
+}
+body {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 46%, rgba(0,0,0,0.6418942577030813) 100%);
+}
+.header{
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+h5{
+    color: rgb(255, 0, 0);
+}
+.btn-calcular{
+    background-color:rgb(255, 0, 0);
+    color: white;
+}
+.ctn-img{
+    display: flex;
+    justify-content: center;
+    margin: 2px 50%;
+    margin-bottom: 2%;
+}
+img{
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+}
+.cantidadCompra{
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    flex-direction:column;
+    border: 3px outset cyan;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.cantidadCompra .ctn-cantidad{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.cantidadCompra button{
+    width: 30%;
+    height: 5vh;
+    border-radius: 80px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+.ctn-compra{
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    border: 3px outset cyan;
+    border-radius: 10px;
+}
+.valorCompra{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.valorCompra .ctn-input-valores{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
